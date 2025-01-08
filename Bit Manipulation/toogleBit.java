@@ -2,8 +2,8 @@
 
 public class toogleBit {
     public static void main(String[] args) {
-        int n=7;
-       int pos=2;
+        int n=7; //0111
+       int pos=3;
         int BitMask=1<<pos;
         System.out.println(n^BitMask);
 

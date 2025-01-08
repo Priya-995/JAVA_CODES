@@ -1,6 +1,6 @@
 // Time complexity => O(n)
 public class removeDup {
-    public static boolean map[]= new boolean[25];
+    public static boolean map[]= new boolean[26];
     public static void removeDuplicates(String str,int idx,String newStr){
         if(idx==str.length()){
             System.out.print(newStr);
@@ -17,7 +17,7 @@ public class removeDup {
       }
     }
     public static void main(String[] args) {
-        String str="aabccdee";
+        String str="aabzccdzee";
         removeDuplicates(str, 0, "");
     }
 }

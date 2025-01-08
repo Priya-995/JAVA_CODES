@@ -15,28 +15,29 @@ public class spiral_order_matrix {
         int col_start=0;
         int col_end=m-1;
         while(row_start<=row_end&&col_start<=col_end){
+            
             for(int i=col_start;i<=col_end;i++){
                 System.out.print(num[row_start][i]+" ");
             }
-            System.out.println();
+            // System.out.println();
             row_start++;
             if(row_start> row_end) break;
             for(int i=row_start;i<=row_end;i++){
                 System.out.print(num[i][col_end]+" ");
             }
-            System.out.println();
+            // System.out.println();
             col_end--;
             if(col_end<col_start) break;
             for(int i=col_end;i>=col_start;i--){
                 System.out.print(num[row_end][i]+" ");
             }
-            System.out.println();
+            // System.out.println();
             row_end--;
             if(row_end<row_start) break;
             for(int i=row_end;i>=row_start;i--){
                 System.out.print(num[i][col_start]+" ");
             }
-            System.out.println();
+            // System.out.println();
             col_start++;
         }
 

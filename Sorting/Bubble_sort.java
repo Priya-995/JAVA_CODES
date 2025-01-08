@@ -16,7 +16,6 @@ public interface Bubble_sort {
                   arr[j+1]=temp;
                 }
             }
-
         }
         printArr(arr);
 

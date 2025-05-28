@@ -10,13 +10,16 @@ public class search_print_idx {
                 number[i][j]=sc.nextInt();
             }
         }
+        //print matrix
         for(int i=0;i<row;i++){
             for(int j=0;j<cols;j++){
                System.out.print(number[i][j]+" ");
             }
             System.out.println();
         }
+        // search element
         System.out.println("enter no. to search");
+        //key to found
         int x=sc.nextInt();
         for(int i=0;i<row;i++){
             for(int j=0;j<cols;j++){

@@ -15,10 +15,12 @@ public class Selection_sort {
              smallest=j;
            }
          }
+         //to avoid unnecessary swaps 
+         if(smallest!=i){
          int temp=arr[i];
          arr[i]=arr[smallest];
          arr[smallest]=temp;
-
+         }
 
         }
         printArr(arr);

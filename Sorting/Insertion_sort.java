@@ -1,5 +1,4 @@
-
-
+// Complexity=> O(n^2)
 public class Insertion_sort {
     public static void printArr(int arr[]){
       for(int i=0;i<arr.length;i++)
@@ -15,9 +14,8 @@ public class Insertion_sort {
             j--;
           }
           //placement
-          arr[j]=current;
-
+          arr[j+1]=current;
         }
+        printArr(arr);
     }
-    
 }

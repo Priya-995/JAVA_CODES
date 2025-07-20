@@ -23,7 +23,6 @@ class Animal {
 class Horse extends Animal {
     // Constructor of Horse class
     Horse() {
-        
         super();  // Calls the constructor of Animal (superclass)
         super.color="brown";  // u can do it directly like this without calling super first (super())
         System.out.println("Horse constructor called");

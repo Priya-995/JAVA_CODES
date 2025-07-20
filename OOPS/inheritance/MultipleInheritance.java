@@ -4,7 +4,6 @@ public class MultipleInheritance {
         Bear b= new Bear();
         b.eatGrass();
         b.eatMeat();
-
     }
     
 }
